@@ -1,0 +1,226 @@
+/*
+primery-color: #170065
+grdin-color > darck:#FFB53E light:#ffff00
+
+
+*/
+
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:" Lato" ,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.contener-box{
+    background:linear-gradient(
+        to left bottom, 
+        rgba(0, 255, 187, 0.8),
+        rgba(5, 3, 122, 0.8)), 
+        url(../img/fantasy-2861107_1280.jpg)no-repeat center center/cover;
+    display: grid;
+    grid-template-rows: 60px 1fr 1fr 60px;
+    /* grid-template-columns: 1fr; */
+    /* justify-content: censter; */
+    
+
+}
+.head{
+    background-color: rgba(24, 0, 102, 0.378);
+}
+header{
+justify-self: center;
+}
+header img{
+    width: 350px;
+}
+header img:hover{
+    width: 348px;
+}
+form{
+    text-align:center;
+}
+
+form input.serch{
+    justify-self: center;
+    padding-left: 20px;
+    width: 568px;
+    height: 48px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(26, 25, 25);
+
+}
+form input.submit{
+    width: 48px;
+    height: 48px;
+    background:linear-gradient(#ffff00,#FFB53E);
+    border-radius: 4px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(26, 25, 25);
+}
+ .submit:hover{
+    /* background:#170065; */
+    background:linear-gradient(
+        rgba(0, 255, 187, 0.8),
+        rgba(5, 3, 122, 0.8));
+    color: rgb(255, 255, 255);
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+}
+footer{
+    margin-top: 30px;
+    background-color: rgba(24, 0, 102, 0.8);
+    text-align: center;
+    color: yellow;
+    /* align-self: center; */
+}
+footer a{
+    color: yellow;
+    text-decoration: none;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+    .contener-box{
+        height: 100vh;
+        background:linear-gradient(
+            to left bottom, 
+            rgba(0, 255, 187, 0.8),
+            rgba(5, 3, 122, 0.8)), 
+            url(../img/fantasy-2861107_1280.jpg)no-repeat center center/cover;
+        display: grid;
+        grid-template-rows: 8% 1fr 1fr  1fr;
+    }
+    .head{
+        background-color: rgba(24, 0, 102, 0.378);
+    }
+    header{
+    justify-self: center;
+    }
+    header img{
+        width: 300px;
+    }
+    
+    form{
+        text-align:center;
+    }
+    
+    form input.serch{
+        justify-self: center;
+        padding-left: 20px;
+        width: 346px;
+        height: 30px;
+        border-radius: 2px;
+        border: none;
+        box-shadow: 1px 1px 2px rgb(26, 25, 25);
+    
+    }
+    form input.submit{
+        width: 30px;
+        height: 30px;
+        background:linear-gradient(#ffff00,#FFB53E);
+        border-radius: 2px;
+        border: none;
+        box-shadow: 1px 1px 2px rgb(26, 25, 25);
+    }
+    .submit:hover{
+        /* background:#170065; */
+        background:linear-gradient(
+            rgba(0, 255, 187, 0.8),
+            rgba(5, 3, 122, 0.8));
+        color: rgb(255, 255, 255);
+        width: 29px;
+        height: 29px;
+        padding: 1px;
+    }
+    footer{
+        background-color: rgba(24, 0, 102, 0.8);
+        color: yellow;
+        font-size: 12px;
+
+    }
+    footer a{
+        color: yellow;
+        text-decoration: none;
+        align-items: center;
+    }
+    
+}
+@media screen and (max-width: 375px) {
+    .contener-box{
+        height: 100vh;
+        background:linear-gradient(
+            to left bottom, 
+            rgba(0, 255, 187, 0.8),
+            rgba(5, 3, 122, 0.8)), 
+            url(../img/fantasy-2861107_1280.jpg)no-repeat center center/cover;
+        display: grid;
+        grid-template-rows: 7% 1fr 1fr  1fr;
+        
+    
+    }
+    .head{
+        background-color: rgba(24, 0, 102, 0.378);
+    }
+    header{
+    justify-self: center;
+    }
+    header img{
+        width: 200px;
+    }
+    
+    form{
+        text-align:center;
+    }
+    
+    form input.serch{
+        justify-self: center;
+        padding-left: 5px;
+        width: 250px;
+        height: 30px;
+        border-radius: 2px;
+        border: none;
+        box-shadow: 1px 1px 2px rgb(26, 25, 25);
+        font-size: 10px;
+    }
+    form input.submit{
+        width: 30px;
+        height: 30px;
+        background:linear-gradient(#ffff00,#FFB53E);
+        border-radius: 2px;
+        border: none;
+        box-shadow: 1px 1px 2px rgb(26, 25, 25);
+    }
+    .submit:hover{
+        /* background:#170065; */
+        background:linear-gradient(
+            rgba(0, 255, 187, 0.8),
+            rgba(5, 3, 122, 0.8));
+        color: rgb(255, 255, 255);
+        width: 29px;
+        height: 29px;
+        padding: 1px;
+    }
+    footer{
+        background-color: rgba(24, 0, 102, 0.8);
+        color: yellow;
+        font-size: 10px;
+    }
+    footer a{
+        color: yellow;
+        text-decoration: none;
+        align-items: center;
+    }
+    
+}
